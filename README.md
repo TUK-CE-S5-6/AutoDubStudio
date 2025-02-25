@@ -107,6 +107,8 @@
 <div> <img src="https://img.shields.io/badge/Clova%20Speech-0DB4E9?style=for-the-badge&logo=ncloud&logoColor=white"/> <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/ElevenLabs-FF9900?style=for-the-badge"/> </div>
 🔹 Media Processing
 <div> <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white"/> <img src="https://img.shields.io/badge/MoviePy-FF3031?style=for-the-badge"/> <img src="https://img.shields.io/badge/Spleeter-FB4F14?style=for-the-badge"/> </div>
+🔹 Tool
+<div> <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"/> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/> </div>
 
 ## 🤔 기술적 이슈와 해결 과정
 
@@ -119,7 +121,7 @@
 
 ## 💁‍♂️ 프로젝트 팀원
 
-|                   Backend                    |                  Frontend                   |
-| :------------------------------------------: | :-----------------------------------------: |
-| ![](https://github.com/leeway01.png?size=80) | ![](https://github.com/ele-003.png?size=80) |
-|    [이재현](https://github.com/leeway01)     |    [이주영](https://github.com/ele-003)     |
+|                                             Backend                                              |                                            Frontend                                             |
+| :----------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/leeway01.png?size=80" alt="Profile Image" width="200" height="200"> | <img src="https://github.com/ele-003.png?size=80" alt="Profile Image" width="200" height="200"> |
+|                              [이재현](https://github.com/leeway01)                               |                              [이주영](https://github.com/ele-003)                               |
