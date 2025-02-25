@@ -79,6 +79,14 @@
 
 </details>
 
+## 시스템 수행 시나리오
+
+<img src="readme-img/시스템수행시나리오.png">
+
+## 시스템 구성도
+
+<img src="readme-img/시스템 구성도.png">
+
 ## 🖥️ 화면 구성 (프로토타입)
 
 <img src="readme-img/편집화면구성(프로토).png">
@@ -121,7 +129,7 @@
 
 ## 💁‍♂️ 프로젝트 팀원
 
-|                                             Backend                                              |                                            Frontend                                             |
-| :----------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
-| <img src="https://github.com/leeway01.png?size=80" alt="Profile Image" width="200" height="200"> | <img src="https://github.com/ele-003.png?size=80" alt="Profile Image" width="200" height="200"> |
-|                              [이재현](https://github.com/leeway01)                               |                              [이주영](https://github.com/ele-003)                               |
+|                                            Front-end                                            |                                             Back-end                                             |
+| :---------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/ele-003.png?size=80" alt="Profile Image" width="160" height="160"> | <img src="https://github.com/leeway01.png?size=80" alt="Profile Image" width="160" height="160"> |
+|                              [이주영](https://github.com/ele-003)                               |                              [이재현](https://github.com/leeway01)                               |
