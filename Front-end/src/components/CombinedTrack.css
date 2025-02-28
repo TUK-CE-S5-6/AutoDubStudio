@@ -1,0 +1,165 @@
+/* CombinedTrack.css */
+
+/* 전체 컨테이너 */
+.combined-track-container {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #2f3136;
+  color: #dcddde;
+  padding: 20px;
+}
+
+/* 타임라인 컨테이너 -*/
+.timeline-container {
+    margin-left: 170px;  /* 추가된 속성 */
+    width: calc(100% - 170px);
+    height: 30px;
+    padding-top: 20px;
+    border-bottom: 1px solid #72767d;
+    background-color: #36393f;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+  }
+
+/* 타임라인 눈금 및 레이블 */
+.timeline-tick {
+  position: absolute;
+  bottom: 0;
+  background-color: #dcddde;
+}
+.timeline-label {
+  position: absolute;
+  font-size: 10px;
+  font-weight: bold;
+  color: #dcddde;
+}
+
+/* 민트 박스 (WaveSurfer 파형 영역) */
+/* 여기서 mint-box에만 margin-left: 170px;를 추가하여 오른쪽으로 이동 */
+.mint-box {
+  margin-left: 170px;
+  min-width: 30000px;
+  height: 60px;
+  background-color: #dcddde;
+}
+
+/* 블루 트랙 (오디오 트랙) 영역 */
+.blue-box {
+  min-width: 30000px;
+  height: 60px;
+  background-color: #dcddde;
+  position: relative;
+}
+
+/* 레드 트랙 (비디오 트랙) 영역 */
+.red-box {
+  min-width: 30000px;
+  height: 60px;
+  background-color: #dcddde;
+  position: relative;
+}
+
+/* 드래그 가능한 아이템 (트랙 요소) */
+.draggable-item {
+  position: absolute;
+  top: 0;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #4f545c;
+  text-align: center;
+  line-height: 40px;
+  cursor: grab;
+  z-index: 10;
+}
+
+/* 기타 버튼 메뉴 (드롭다운 스타일) */
+.other-button-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.other-button-menu button {
+  background-color: #7289da;
+  color: #dcddde;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.other-button-menu .menu-dropdown {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-left: 5px;
+  background-color: #36393f;
+  border: 1px solid #72767d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  padding: 10px;
+  min-width: 150px;
+}
+
+.other-button-menu .menu-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.other-button-menu .menu-dropdown li {
+  padding: 8px 0;
+  cursor: pointer;
+  color: #dcddde;
+}
+
+.other-button-menu .menu-dropdown li:hover {
+  background-color: #4f545c;
+}
+
+/* JSON 입력 모달 */
+.json-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.json-modal .modal-content {
+  background-color: #36393f;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 500px;
+  color: #dcddde;
+}
+
+.json-modal textarea {
+  width: 100%;
+  height: 200px;
+  background-color: #2f3136;
+  color: #dcddde;
+  border: 1px solid #72767d;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+/* 기본 버튼 스타일 */
+button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #7289da;
+  color: #dcddde;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #677bc4;
+}
