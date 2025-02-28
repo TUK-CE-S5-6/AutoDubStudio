@@ -1,0 +1,19 @@
+# 가상 환경 폴더
+venv/
+env-service-a/
+env-service-b/
+env-service-c/
+
+# 영상 저장 폴더
+extracted_audio/
+uploaded_videos/
+temp_segments/
+voice_models/
+
+# 기타 불필요한 파일
+__pycache__/
+*.py[cod]
+*.log
+*.exe
+*.dll
+*.lib
